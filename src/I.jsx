@@ -27,14 +27,9 @@ const CartoonSeries = () => {
   const name = "Doremon";
   const rating = "8.2";
   const summary = "Doraemon is a Japanese animated series about a robotic cat from the 22nd century who travels back in time to help a lazy and often unlucky boy named Nobita Nobi. Doraemon uses futuristic gadgets from his “4D pocket” to solve Nobita’s everyday problems, though things often get funny or chaotic. The show highlights friendship, imagination, and life lessons in a fun, light-hearted way";
-  let age = 19;
-  // let canWatch = "Not Available";
-  // if(age >= 18) canWatch = "Watch Now";
-
-  const canWatch = () => {
-    if(age >= 18) return "Watch Now";
-    return "Not Available"
-  }
+  let age = 16;
+  let canWatch = "Not Available";
+  if(age >= 18) canWatch = "Watch Now";
 
   const returnGenre = () => {
     const genre = "Entertainment";
@@ -65,8 +60,7 @@ const CartoonSeries = () => {
       <h3>Rating: {rating}</h3>
       <p>Summary : {summary}</p>
       <p>Genre : {returnGenre()}</p>
-      {/* <button>{canWatch} </button> */}
-      <button>{canWatch()} </button>
+      <button>{canWatch} </button>
     </div>
   );
 };
