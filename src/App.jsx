@@ -1,72 +1,15 @@
+import  CartoonSeries ,{ Footer,Header } from "./components/CartoonSeries";
+
 export const App = () => {
   return (
     <>
+      <Header/>
       <CartoonSeries />
       <CartoonSeries />
       <CartoonSeries />
       <CartoonSeries />
       <CartoonSeries />
+      <Footer />
     </>
-
-  );
-};
-
-const CartoonSeries = () => {
-
-  // use
-  // 1. varibles
-  // 2. Expressions
-  // JSX allows you to write JavaScript expressions inside curly braces.
-  // This includes operations, functions calls, and other javascript expressions that
-  // produce a value.
-
-  // 3. Function calls
-  // Functions , expecially those that return JSX, can be
-  // invoked directly within  your JSX.
-
-  const name = "Doremon";
-  const rating = "8.2";
-  const summary = "Doraemon is a Japanese animated series about a robotic cat from the 22nd century who travels back in time to help a lazy and often unlucky boy named Nobita Nobi. Doraemon uses futuristic gadgets from his “4D pocket” to solve Nobita’s everyday problems, though things often get funny or chaotic. The show highlights friendship, imagination, and life lessons in a fun, light-hearted way";
-  let age = 19;
-  // let canWatch = "Not Available";
-  // if(age >= 18) canWatch = "Watch Now";
-
-  const canWatch = () => {
-    if(age >= 18) return "Watch Now";
-    return "Not Available"
-  }
-
-  const returnGenre = () => {
-    const genre = "Entertainment";
-    return genre;
-  };
-
-  // if (age < 18) {
-  //   return (
-  //     <div>
-  //       <div>
-  //         <img src="doremon.jpg" alt="image" width="30%" height="40%" />
-  //       </div>
-  //       <h2>Cartoon Name: {name} </h2>
-  //       <h3>Rating: {rating}</h3>
-  //       <p>Summary : {summary}</p>
-  //       <p>Genre : {returnGenre()}</p>
-  //       <button>Not Available</button>
-  //     </div>
-  //   );
-  // }
-
-  return (
-    <div>
-      <div>
-        <img src="doremon.jpg" alt="image" width="30%" height="40%" />
-      </div>
-      <h2>Cartoon Name: {name} </h2>
-      <h3>Rating: {rating}</h3>
-      <p>Summary : {summary}</p>
-      <p>Genre : {returnGenre()}</p>
-      {/* <button>{canWatch} </button> */}
-      <button>{canWatch()} </button>
-    </div>
   );
 };
