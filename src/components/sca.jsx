@@ -1,5 +1,3 @@
-import styles from "./Cartoon.module.css";
-
 export const SeriesCard = ({ currElement }) => {
     // console.log(props);
     const { id, img_url, name, rating, summary, cast, genre, watch_url } = currElement;
@@ -14,16 +12,16 @@ export const SeriesCard = ({ currElement }) => {
         cursor: "pointer",
     }
 
-    const ratingClass = rating >= 8.5 ? styles.super_hit : styles.average;
+    const ratingClass = rating >= 8.5 ? "super_hit" : "average";
 
     return (
-        <li className={styles.card}>
+        <li className="card">
             <div>
                 <img src={img_url} alt={name} width="30%" height="40%" />
             </div>
-            <div className={styles["card-content"]}>
+            <div className="card-content">
                 <h2>{name}</h2>
-                <h3>Rating: <span className={`${styles.rating} ${ratingClass}`}> {rating} </span></h3>
+                <h3>Rating: <span className={`rating ${ratingClass}`}> {rating} </span></h3>
                 <p>Summary : {summary}</p>
                 <p>Genre : {genre.join(", ")}</p>
                 <p>Cast: {cast.join(", ")}</p>
@@ -31,6 +29,17 @@ export const SeriesCard = ({ currElement }) => {
                     <button style={btn_style}>Watch Now</button>
                 </a>
             </div>
+            {/* inline css  */}
+            {/* <div className="card-content">
+            <h2 style={{margin:"1.2rem 0"}}>{name}</h2>
+            <h3 style={{margin:"1.2rem 0"}}>Rating: {rating}</h3>
+            <p style={{margin:"1.2rem 0"}} >Summary : {summary}</p>
+            <p style={{margin:"1.2rem 0"}} >Genre : {genre.join(", ")}</p>
+            <p style={{margin:"1.2rem 0"}}>Cast: {cast.join(", ")}</p>
+            <a href={watch_url} target="_blank" >
+                <button>Watch Now</button>
+            </a>
+        </div> */}
         </li>
     );
 };

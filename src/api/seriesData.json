@@ -2,7 +2,7 @@
   {
     "id": "doraemon",
     "name": "Doraemon",
-    "rating": 4.8,
+    "rating": 9.1,
     "summary": "A robotic cat from the future helps Nobita with futuristic gadgets to solve everyday problems.",
     "genre": ["Comedy", "Adventure", "Sci-Fi"],
     "cast": ["Doraemon", "Nobita", "Shizuka", "Gian", "Suneo"],
@@ -12,7 +12,7 @@
   {
     "id": "shinchan",
     "name": "Shinchan",
-    "rating": 4.6,
+    "rating": 8.3,
     "summary": "A mischievous five-year-old boy creates funny and troublesome situations with his witty remarks.",
     "genre": ["Comedy", "Slice of Life"],
     "cast": ["Shinchan", "Hiroshi", "Misae", "Himawari", "Nene"],
@@ -22,7 +22,7 @@
   {
     "id": "tom-and-jerry",
     "name": "Tom and Jerry",
-    "rating": 4.9,
+    "rating": 9.8,
     "summary": "Classic cartoon of endless chases and battles between the mischievous mouse Jerry and cat Tom.",
     "genre": ["Comedy", "Slapstick"],
     "cast": ["Tom", "Jerry", "Spike", "Tyke"],
@@ -32,7 +32,7 @@
   {
     "id": "pokemon",
     "name": "Pokemon",
-    "rating": 4.7,
+    "rating": 8.7,
     "summary": "Ash and Pikachu travel the world to become the greatest Pokémon Master by capturing and battling Pokémon.",
     "genre": ["Adventure", "Fantasy", "Action"],
     "cast": ["Ash", "Pikachu", "Misty", "Brock", "Team Rocket"],
@@ -42,7 +42,7 @@
   {
     "id": "ben-10",
     "name": "Ben 10",
-    "rating": 4.5,
+    "rating": 8.1,
     "summary": "A boy finds a watch-like device called Omnitrix that lets him transform into various aliens to fight evil.",
     "genre": ["Action", "Sci-Fi", "Adventure"],
     "cast": ["Ben Tennyson", "Gwen Tennyson", "Grandpa Max", "Vilgax"],
@@ -52,7 +52,7 @@
   {
     "id": "chhota-bheem",
     "name": "Chhota Bheem",
-    "rating": 4.3,
+    "rating": 7.5,
     "summary": "Bheem, a brave boy from Dholakpur, uses his strength and intelligence to save his friends and village.",
     "genre": ["Adventure", "Action", "Comedy"],
     "cast": ["Bheem", "Chutki", "Raju", "Jaggu", "Kalia"],
@@ -62,7 +62,7 @@
   {
     "id": "motu-patlu",
     "name": "Motu Patlu",
-    "rating": 4.2,
+    "rating": 7.8,
     "summary": "Two best friends, Motu and Patlu, get into hilarious situations while trying to solve problems in Furfuri Nagar.",
     "genre": ["Comedy", "Adventure"],
     "cast": ["Motu", "Patlu", "Dr. Jhatka", "Ghasitaram", "John"],
@@ -72,7 +72,7 @@
   {
     "id": "oggy-cockroaches",
     "name": "Oggy and the Cockroaches",
-    "rating": 4.4,
+    "rating": 8.4,
     "summary": "A lazy cat Oggy constantly struggles with three naughty cockroaches who create chaos in his life.",
     "genre": ["Comedy", "Slapstick"],
     "cast": ["Oggy", "Joey", "Dee Dee", "Marky", "Jack"],
@@ -82,7 +82,7 @@
   {
     "id": "dragon-ball-z",
     "name": "Dragon Ball Z",
-    "rating": 4.9,
+    "rating": 9.6,
     "summary": "Goku and his friends defend Earth from powerful villains while seeking Dragon Balls to grant wishes.",
     "genre": ["Action", "Adventure", "Fantasy"],
     "cast": ["Goku", "Vegeta", "Gohan", "Piccolo", "Frieza"],
@@ -92,7 +92,7 @@
   {
     "id": "naruto",
     "name": "Naruto",
-    "rating": 4.8,
+    "rating": 9.4,
     "summary": "A young ninja, Naruto Uzumaki, dreams of becoming Hokage while facing challenges and making friends.",
     "genre": ["Action", "Adventure", "Fantasy"],
     "cast": ["Naruto", "Sasuke", "Sakura", "Kakashi", "Hinata"],
@@ -102,7 +102,7 @@
   {
     "id": "scooby-doo",
     "name": "Scooby-Doo",
-    "rating": 4.6,
+    "rating": 8.4,
     "summary": "Scooby-Doo and his friends solve spooky mysteries involving supposedly supernatural creatures.",
     "genre": ["Comedy", "Mystery", "Adventure"],
     "cast": ["Scooby-Doo", "Shaggy", "Velma", "Daphne", "Fred"],
@@ -112,7 +112,7 @@
   {
     "id": "powerpuff-girls",
     "name": "Powerpuff Girls",
-    "rating": 4.5,
+    "rating": 8.2,
     "summary": "Three super-powered girls protect Townsville from villains while managing their normal lives.",
     "genre": ["Action", "Comedy", "Superhero"],
     "cast": ["Blossom", "Bubbles", "Buttercup", "Professor Utonium", "Mojo Jojo"],
@@ -122,7 +122,7 @@
   {
     "id": "teen-titans",
     "name": "Teen Titans",
-    "rating": 4.7,
+    "rating": 8.9,
     "summary": "A group of young superheroes including Robin, Starfire, Beast Boy, Raven, and Cyborg fight villains together.",
     "genre": ["Action", "Adventure", "Superhero"],
     "cast": ["Robin", "Starfire", "Beast Boy", "Raven", "Cyborg"],
@@ -132,7 +132,7 @@
   {
     "id": "avatar-airbender",
     "name": "Avatar: The Last Airbender",
-    "rating": 5.0,
+    "rating": 7.4,
     "summary": "Aang, the last Airbender, must master all four elements to defeat the Fire Nation and bring peace.",
     "genre": ["Action", "Fantasy", "Adventure"],
     "cast": ["Aang", "Katara", "Sokka", "Zuko", "Toph"],
@@ -142,7 +142,7 @@
   {
     "id": "phineas-ferb",
     "name": "Phineas and Ferb",
-    "rating": 4.6,
+    "rating": 8.5,
     "summary": "Two brothers spend their summer vacation building extraordinary inventions while their sister tries to expose them.",
     "genre": ["Comedy", "Adventure", "Musical"],
     "cast": ["Phineas", "Ferb", "Candace", "Perry the Platypus", "Doofenshmirtz"],
