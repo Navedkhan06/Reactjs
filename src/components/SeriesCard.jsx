@@ -24,7 +24,7 @@ export const SeriesCard = ({ currElement }) => {
             <div className={styles["card-content"]}>
                 <h2>{name}</h2>
                 <h3>Rating: <span className={`${styles.rating} ${ratingClass}`}> {rating} </span></h3>
-                <p>Summary : {summary}</p>
+                <p className="text-3xl font-bold underline">Summary : {summary}</p>
                 <p>Genre : {genre.join(", ")}</p>
                 <p>Cast: {cast.join(", ")}</p>
                 <a href={watch_url} target="_blank" >
