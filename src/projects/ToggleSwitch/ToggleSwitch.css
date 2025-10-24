@@ -1,0 +1,74 @@
+/* Center the switch on the screen */
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Outer toggle container */
+.toggle-switch {
+  width: 110px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Glowing effect when ON */
+.toggle-switch.on {
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+}
+
+/* Glowing effect when OFF */
+.toggle-switch.off {
+  box-shadow: 0 0 20px rgba(244, 67, 54, 0.5);
+}
+
+/* Inner switch knob */
+.switch {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #f44336;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ON state */
+.switch.on {
+  background: #4caf50;
+  transform: translateX(55px);
+  box-shadow: 0 4px 20px rgba(76, 175, 80, 0.4);
+}
+
+/* OFF state */
+.switch.off {
+  background: #f44336;
+  transform: translateX(0);
+  box-shadow: 0 4px 20px rgba(244, 67, 54, 0.4);
+}
+
+/* Switch text */
+.switch-state {
+  font-size: 12px;
+  letter-spacing: 1px;
+  pointer-events: none;
+}
